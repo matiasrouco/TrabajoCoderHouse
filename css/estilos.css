@@ -48,6 +48,30 @@ main {
 	border-bottom: 1px solid rgb(255, 255, 255, 0.1);
 }
 
+
+/* boostrap navbar */
+.navbar {
+	
+	color: #fff;
+	height: 50px;
+	border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+	background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+}
+
+#container-fluid {
+	 display: flex; 
+	 width: 100%;
+	 /* justify-content: space-between;  */
+	 /* height: auto; */
+}
+
+
+.navbar-nav {
+	width: 500px;
+}
+
+/* FIN BOOSTRAP */
+
 .nav__container {
 	display: flex;
 	align-items: center;

@@ -19,27 +19,55 @@
 		<!-- inicio header -->
 		<header class="hero">
 			<!-- inicio menu -->
-			<nav class="nav__hero">
-				<div class="container nav__container">
-					<div class="logo">
-						<h2 class="logo__name">Rouco Matias<span class="point">.</span></h2>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div id="container-fluid">
+					<!-- boton hamburgesa -->
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo01"
+						aria-controls="navbarTogglerDemo01"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="container nav__container">
+						<!-- Logo nombre -->
+						<div class="logo">
+							<h2 class="logo__name">
+								Rouco Matias<span class="point">.</span>
+							</h2>
+						</div>
 					</div>
-					<!-- links a paginas -->
-					<div class="links">
-						<a href="../index.html" class="link">Inicio</a>
-						<a href="./sobremi.html" class="link">Mas Sobre Mi</a>
-						<a href="./experiencia.html" class="link">Experiencia</a>
-						<a href="./tecnologias.html" class="link">Tecnologias</a>
-						<a href="./contacto.html" class="link link--active">Contacto</a>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<!-- links -->
+							<li class="nav-item">
+								<a href="../index.html" class="link">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a href="./sobremi.html" class="link">Mas Sobre Mi</a>
+							</li>
+							<li class="nav-item">
+								<a href="./experiencia.html" class="link">Experiencia</a>
+							</li>
+							<li class="nav-item">
+								<a href="./tecnologias.html" class="link">Tecnologias</a>
+							</li>
+							<li class="nav-item">
+								<a href="./contacto.html" class="link link--active">Contacto</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</nav>
-			<!-- fin header -->
 		</header>
-		<!-- fin header header -->
-        <!-- inicio main -->
+		<!-- fin header -->
+		<!-- inicio main -->
 		<main>
-            <!-- inicio formulario de contacto -->
+			<!-- inicio formulario de contacto -->
 			<section class="container formulario__cont">
 				<form id="formulario">
 					<label for="nombre">Nombre:</label>
@@ -63,9 +91,9 @@
 					<p>Mensaje enviado. Gracias por contactarnos.</p>
 				</div>
 			</section>
-             <!-- fin formulario de contacto -->
+			<!-- fin formulario de contacto -->
 		</main>
-         <!-- fin main -->
+		<!-- fin main -->
 		<!-- inicio footer -->
 		<footer class="footer">
 			<!-- inicio contactame -->
@@ -118,7 +146,9 @@
 				<div class="item__contact item__contact--gold">
 					<i class="bx bxs-chat contact__icon contact__icon--modifier"></i>
 					<!-- <h3 class="contact__title">Contactame</h3> -->
-					<a href="./cv/ROUCO_MATIAS_DANIEL_CV.docx" class="link" >Descarga mi CV</a>
+					<a href="./cv/ROUCO_MATIAS_DANIEL_CV.docx" class="link"
+						>Descarga mi CV</a
+					>
 				</div>
 			</div>
 			<!-- fin info mia -->
