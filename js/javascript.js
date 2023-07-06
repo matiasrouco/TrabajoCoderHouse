@@ -1,3 +1,3 @@
 function limpiarPantalla() {
-	document.getElementById("formulario").reset();
+	document.getElementById("contactForm").reset();
 }
