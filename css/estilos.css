@@ -182,6 +182,10 @@ main {
 	justify-content: center;
 }
 
+.sobremi__texto p{
+	color: white;
+}
+
 .tecnologias {
 	display: flex;
 	justify-content: center;
