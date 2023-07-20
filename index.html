@@ -5,6 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Profile</title>
+		<!-- animaciones.css -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<!-- link archivo css -->
 		<link rel="stylesheet" href="./css/estilos.css" />
 		<!-- link pagina botones -->
@@ -26,14 +29,11 @@
 		></script>
 	</head>
 	<body>
-
-		
-
 		<!-- inicio header -->
 		<header class="hero">
 			<!-- inicio menu -->
 			<nav class="navbar navbar-expand-lg bg-body-tertiary">
-				<div id="container-fluid">
+				<div>
 					<!-- boton hamburgesa -->
 					<button
 						class="navbar-toggler"
@@ -70,7 +70,9 @@
 								<a href="./pages/tecnologias.html" class="link">Tecnologias</a>
 							</li>
 							<li class="nav-item">
-								<a href="./pages/contacto.html" class="link link--active">Contacto</a>
+								<a href="./pages/contacto.html" class="link link--active"
+									>Contacto</a
+								>
 							</li>
 						</ul>
 					</div>
@@ -79,7 +81,11 @@
 		</header>
 		<!-- fin header -->
 		<main>
-			<section class="container hero__main">
+			<section
+				class="container hero__main"
+				data-aos="zoom-in-down"
+				data-aos-duration="1500"
+			>
 				<div class="hero__texto">
 					<h1 class="title">
 						FullStack <span class="title__active">developer.</span>
@@ -91,7 +97,11 @@
 				</div>
 			</section>
 
-			<section class="container hero__main">
+			<section
+				class="container hero__main"
+				data-aos="zoom-in-down"
+				data-aos-duration="1500"
+			>
 				<div class="hero__texto">
 					<h1 class="title">
 						Experiencia <span class="title__active">Laboral.</span>
@@ -103,7 +113,11 @@
 				</div>
 			</section>
 
-			<section class="container hero__main">
+			<section
+				class="container hero__main"
+				data-aos="zoom-in-down"
+				data-aos-duration="1500"
+			>
 				<div class="hero__texto">
 					<h1 class="title">
 						Tecnologias <span class="title__active">aprendidas.</span>
@@ -115,7 +129,11 @@
 				</div>
 			</section>
 
-			<section class="container hero__main">
+			<section
+				class="container hero__main"
+				data-aos="zoom-in-down"
+				data-aos-duration="1500"
+			>
 				<div class="hero__texto">
 					<h1 class="title">
 						Te Gustaria <span class="title__active">contactarme?</span>
@@ -187,5 +205,9 @@
 			<!-- fin info mia -->
 		</footer>
 		<!-- fin footer -->
+
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

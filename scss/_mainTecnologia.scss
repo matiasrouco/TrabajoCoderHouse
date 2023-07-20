@@ -1,0 +1,30 @@
+.tecnologias {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.sobremi__texto {
+		margin: 10% 0 10%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		#Tecnologias__title {
+			color: #fff;
+		}
+		.tecno__cont {
+			display: inline-table;
+			.tecno {
+				display: flex;
+				justify-content: left;
+				align-items: center;
+				.tecno__icon {
+					color: #fff;
+					font-size: 40px;
+				}
+				.tecno__text {
+					color: #fff;
+				}
+			}
+		}
+	}
+}

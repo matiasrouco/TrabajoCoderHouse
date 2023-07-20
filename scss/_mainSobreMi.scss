@@ -1,0 +1,22 @@
+.sobremi {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	.sobremi__texto {
+		margin: 10% 0 10%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		.imagen {
+			width: 100%;
+			grid-area: img;
+			overflow: auto;
+		}
+		p {
+			color: white;
+		}
+	}
+}

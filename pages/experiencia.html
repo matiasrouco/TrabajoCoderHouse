@@ -12,8 +12,11 @@
 			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
 			rel="stylesheet"
 		/>
-		<!-- link al archivo js -->
-		<script src="../js/javascript.js"></script>
+				<!-- link animaciones -->
+				<link
+				rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+			/>
 		<!-- Boostrap -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -26,6 +29,7 @@
 			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
 			crossorigin="anonymous"
 		></script>
+
 	</head>
 	<body>
 		<!-- inicio header -->
@@ -79,262 +83,186 @@
 		<!-- fin header -->
 		<!-- inicio main -->
 		<main>
-			<section>
-				<h1 id="titulo__exp">Experiencia Laboral</h1>
-				<div class="flex-parent">
-					<div class="input-flex-container">
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="2000"
-						/>
-						<div class="dot-info" data-description="2000">
-							<span class="year">2002-2008</span>
-							<span class="label">C.A.E.C.E.</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1910"
-						/>
-						<div class="dot-info" data-description="1910">
-							<span class="year">2006-2010</span>
-							<span class="label">Everis Consulting IT</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1920"
-						/>
-						<div class="dot-info" data-description="1920">
-							<span class="year">2010-2011</span>
-							<span class="label">Hewlett-Packard</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1930"
-							checked
-						/>
-						<div class="dot-info" data-description="1930">
-							<span class="year">2011-2013</span>
-							<span class="label">Acciona IT Consulting</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1940"
-						/>
-						<div class="dot-info" data-description="1940">
-							<span class="year">2013-2014</span>
-							<span class="label">Oracle Argentina</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1950"
-						/>
-						<div class="dot-info" data-description="1950">
-							<span class="year">2014-2015</span>
-							<span class="label">Monklar</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1960"
-						/>
-						<div class="dot-info" data-description="1960">
-							<span class="year">2015-2017</span>
-							<span class="label">Open Solutions S.A.</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1970"
-						/>
-						<div class="dot-info" data-description="1970">
-							<span class="year">2017-2018</span>
-							<span class="label">Grupo MIX S.R.L</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1980"
-						/>
-						<div class="dot-info" data-description="1980">
-							<span class="year">2018-2022</span>
-							<span class="label">AIS</span>
-						</div>
-						<input
-							class="radio"
-							type="radio"
-							name="timeline-dot"
-							data-description="1990"
-						/>
-						<div class="dot-info" data-description="1990">
-							<span class="year">2022--</span>
-							<span class="label">Emerix</span>
-						</div>
+					<section>
+				<p class="title">Experiencia Laboral</p>
 
-						<div id="timeline-descriptions-wrapper">
-							<div data-description="1930">
-								<h2 id="Tecnologias__title">Emerix</h2>
-								<!-- <div class="exp__texto">
-									<img src="../img/developer.jpg" alt="" class="imagen" />
-									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-										laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-										perspiciatis.
-									</p>
-								</div> -->
-							</div>
-							<p data-description="1910">
-								And future Call of Duty players would thank them.
-							</p>
-							<p data-description="1920">
-								Because every kid should get to be Tarzan for a day.
-							</p>
-							<p data-description="1930">And the world rejoiced.</p>
-							<p data-description="1940">
-								Because building roads is inconvenient.
-							</p>
-							<p data-description="1950">Ain’t nobody got time to rake.</p>
-							<p data-description="1960">
-								Because paper currency is for noobs.
-							</p>
-							<p data-description="1970">Nobody likes cords. Nobody.</p>
-							<p data-description="1980">Brighter than glow memory.</p>
-							<p data-description="1990">
-								To capitalize on an as-yet nascent market for cat photos.
-							</p>
-							<p data-description="2000">
-								Because organic search rankings take work.
-							</p>
+				<div id="container">
+					<div class="timeline-block timeline-block-right">
+						<div class="marker"></div>
+						<div class="timeline-contentr">
+							<div class="front">
+								<h3>Enero 2022 - Presente</h3>
+								<span>Emerix</span>
+								<p>
+									Desarrollador FullStack Senior. <br>
+									* Transmisión de conocimiento técnico y funcional a personas de menor categoría <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* Creación de documentación Técnica y Funcional del proyecto <br>
+									* Desarrollos Backend en C#, .Net (Framework 4.5) <br>
+									* Desarrollos Frontend en Angular 10 y Typescript <br>
+									* Base de datos Sql Server / Oracle <br>
+									* Desarrollos en Pentaho <br>
+								</p>
+							</div>							
 						</div>
 					</div>
-				</div>
 
-				<div
-					style="position: absolute; bottom: 15px; right: 10px; font-size: 12px"
-				>
-					<a href="https://codepen.io/cjl750/pen/mXbMyo" target="_blank"
-						>based off of version 3</a
-					>
-				</div>
-			</section>
+					<div class="timeline-block timeline-block-left">
+						
+						<div class="timeline-contentl">
+							<div class="front">
+								<h3>Noviembre 2018 - Enero 2022</h3>
+								<span> AIS </span>
+								<p>
+									Desarrollador .NET Senior.<br>    
+									° Transmisión de conocimiento técnico y funcional a personas de menor categoría <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* A cargo del análisis, seguimiento y estimación de los desarrollos en los diferentes ambientes del cliente <br>
+									* Desarrollos Backend en C#, .Net (Framework 4.5) <br>
+									* Base de datos Sql Server <br>
+								</p>
+							</div>	
+						</div>
+						<div class="marker"></div>
+					</div>
 
-			<section class="container exp__main">
-				<div class="exp_1" data-description="1930">
-					<h2 id="Tecnologias__title">Emerix</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
+					<div class="timeline-block timeline-block-right">
+						<div class="marker"></div>
+						<div class="timeline-contentr">
+							<div class="front">
+								<h3> Agosto 2017 - Noviembre 2018 </h3>
+								<span> Group Mix S.R.L </span>
+								<p>
+									Desarrollador Oracle Senior.<br>
+									* Transmisión de conocimiento técnico y funcional a personas de menor categoría <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* Creación de documentación Técnica y Funcional del proyecto <br>
+									* Desarrollos en Forms/Reports 6i/10g/11g Weblogic<br>
+									* Base de datos Oracle 10g y 11g <br>
+									* Migracion de Forms a tecnologia .Net <br>
+								</p>
+							</div>	
+						</div>
 					</div>
-				</div>
 
-				<!-- <div class="exp_2">
-					<h2 id="Tecnologias__title">AIS</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
+					<div class="timeline-block timeline-block-left">
+						
+						<div class="timeline-contentl">
+							<div class="front">
+								<h3> Julio 2015 - Agosto 2017 </h3>
+								<span> Open Solutions S.A. </span>
+								<p>
+									Desarrollador Oracle Senior.<br>
+									* Transmisión de conocimiento técnico y funcional a personas de menor categoría <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* Creación de documentación Técnica y Funcional del proyecto <br>
+									* Desarrollos en Forms/Reports 6i/10g/11g Weblogic<br>
+									* Base de datos Oracle 10g y 11g <br>
+								</p>
+							</div>	
+						</div>
+						<div class="marker"></div>
 					</div>
-				</div>
-				<div class="exp_3">
-					<h2 id="Tecnologias__title">Gobierno de la Ciudad</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
-					</div>
-				</div>
 
-				<div class="exp_1">
-					<h2 id="Tecnologias__title">Emerix</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
+					<div class="timeline-block timeline-block-right">
+						<div class="marker"></div>
+						<div class="timeline-contentr">
+							<div class="front">
+								<h3> Julio 2014 - Julio 2015 </h3>
+								<span> Monklar </span>
+								<p>
+									Desarrollador Oracle Senior.<br>
+									* Transmisión de conocimiento técnico y funcional a personas de menor categoría <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* Creación de documentación Técnica y Funcional del proyecto <br>
+									* Desarrollos en Micros MyInsight y Micros MyInventory<br>
+									* Training a los Usuarios en nuevas funcionalidades <br>
+									* Base de datos Oracle 10g y 11g <br>
+								</p>
+							</div>	
+						</div>
 					</div>
-				</div>
-				<div class="exp_2">
-					<h2 id="Tecnologias__title">AIS</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
-					</div>
-				</div>
-				<div class="exp_3">
-					<h2 id="Tecnologias__title">Gobierno de la Ciudad</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
-					</div>
-				</div>
 
-				<div class="exp_1">
-					<h2 id="Tecnologias__title">Emerix</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
+					<div class="timeline-block timeline-block-left">
+						
+						<div class="timeline-contentl">
+							<div class="front">
+								<h3> Mayo 2013 - Julio 2014 </h3>
+								<span> Oracle Argentina </span>
+								<p>
+									Consultor Técnico Senior EBS.<br>
+									* Capacitación de personal del cliente en la herramienta EBS, PLSQL, Forms y Reports <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* Creación de documentación Técnica y Funcional del proyecto <br>
+									* Desarrollos en Forms/Reports 6i/10g/11g Weblogic<br>
+									* Migraciones de Release R11.5.10 a R12.1.3 <br>
+									* Base de datos Oracle 10g y 11g <br>
+									* Modulos : AR, AP, PO, INV, TREASURE <br>
+								</p>
+							</div>	
+						</div>
+						<div class="marker"></div>
 					</div>
+
+					<div class="timeline-block timeline-block-right">
+						<div class="marker"></div>
+						<div class="timeline-contentr">
+							<div class="front">
+								<h3> Septiembre 2011 - Marzo 2013 </h3>
+								<span> Acciona IT Consulting </span>
+								<p>
+									Analista Programador & Funcional.<br>
+									* Capacitación de personal del cliente en la herramienta EBS, PLSQL, Forms y Reports <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* Creación de documentación Técnica y Funcional del proyecto <br>
+									* Desarrollos en Forms/Reports 6i/10g/11g Weblogic<br>
+									* Migraciones de Release R11.5.10 a R12.1.3 <br>
+									* Base de datos Oracle 10g y 11g <br>
+									* Modulos : AR, AP, PO, INV, TREASURE <br>
+								</p>
+							</div>	
+						</div>
+					</div>
+
+					<div class="timeline-block timeline-block-left">
+						
+						<div class="timeline-contentl">
+							<div class="front">
+								<h3> Septiembre 2010 - Septiembre 2011 </h3>
+								<span> Hewlett-Packard </span>
+								<p>
+									Desarrollador Semi-Senior.<br>
+									* Desarrollos en módulos de lenguaje PL SQL <br>
+									* Desarrollos en módulos de EBS<br>
+									* Documentación Técnica según el modelo CMMI 5 (Modelos de Gestión de Calidad del software). <br>
+									* Desarrollos en Forms/Reports 6i/10g/11g Weblogic<br>
+									* Participación en “Call conference” y “Meetings” internacionales (Funcionales en USA y parte del equipo de Desarrollo en India) para la resolución de los requerimientos del cliente. <br>
+									* Base de datos Oracle 10g y 11g <br>
+								</p>
+							</div>	
+						</div>
+						<div class="marker"></div>
+					</div>
+
+					<div class="timeline-block timeline-block-right">
+						<div class="marker"></div>
+						<div class="timeline-contentr">
+							<div class="front">
+								<h3> Enero 2006 - Septiembre 2010 </h3>
+								<span> Everis Consulting IT </span>
+								<p>
+									Desarrollador Oracle Junior.<br>
+									* Desarrollo de módulos en lenguaje PL SQL. <br>
+									* Desarrollos evolutivos y/o customs a pedido del cliente <br>
+									* Creación de documentación Técnica y Funcional del proyecto <br>
+									* Desarrollos en Forms/Reports 6i/10g/11g Weblogic<br>
+									* Base de datos Oracle 10g y 11g <br>
+								</p>
+							</div>	
+						</div>
+					</div>
+					
 				</div>
-				<div class="exp_2">
-					<h2 id="Tecnologias__title">AIS</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
-					</div>
-				</div>
-				<div class="exp_3">
-					<h2 id="Tecnologias__title">Gobierno de la Ciudad</h2>
-					<div class="exp__texto">
-						<img src="../img/developer.jpg" alt="" class="imagen" />
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-							laboriosam a minima. Officia, sunt qui! Nemo vel quae ea
-							perspiciatis.
-						</p>
-					</div>
-				</div> -->
 			</section>
 		</main>
 		<!-- fin main -->
