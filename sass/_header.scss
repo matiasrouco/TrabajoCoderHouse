@@ -11,12 +11,17 @@
 			justify-content: space-between;
 			height: inherit;
 			padding: 0;
-			.logo__name {
+			height: 50px;
+			.logo {
+				height: 50px;
 				font-size: 20px;
 				.point {
 					color: #f4bd76;
 				}
 			}
+		}
+		.navbar-collapse {
+			width: 730px;
 		}
 		.link {
 			display: inline-block;
