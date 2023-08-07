@@ -30,6 +30,11 @@
 			font-size: 20px;
 			margin-bottom: 30px;
 		}
+		
+		.btn-primary{
+			background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
+		}
+
 		.submitting {
 			float: left;
 			width: 100%;
@@ -58,6 +63,7 @@
 			font-weight: bold;
 		}
 	}
+	
 }
 label.error {
 	font-size: 12px;

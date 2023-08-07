@@ -46,9 +46,14 @@ h2 {
   color: white;
 }
 
+h5 {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+}
+
 .h3,
 .h4,
-.h5,
 .h6 {
   font-family: "Roboto", sans-serif;
   color: #000;
@@ -137,7 +142,7 @@ h2 {
   color: #f4bd76;
 }
 .hero .navbar .navbar-collapse {
-  width: 730px;
+  width: 900px;
 }
 .hero .navbar .link {
   display: inline-block;
@@ -245,6 +250,9 @@ h2 {
 .content .contact-wrap h3 {
   font-size: 20px;
   margin-bottom: 30px;
+}
+.content .contact-wrap .btn-primary {
+  background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
 }
 .content .contact-wrap .submitting {
   float: left;
@@ -427,35 +435,20 @@ h1 span {
   padding-left: 20px;
 }
 
-.tecnologias {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card {
+  margin: 20px 20px;
 }
-.tecnologias .sobremi__texto {
-  margin: 10% 0 10%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.card .card-img-top {
+  height: 250px;
 }
-.tecnologias .sobremi__texto #Tecnologias__title {
-  color: #fff;
+.card .card-body {
+  display: contents;
 }
-.tecnologias .sobremi__texto .tecno__cont {
-  display: inline-table;
+.card .card-body .card-text {
+  height: 200px;
 }
-.tecnologias .sobremi__texto .tecno__cont .tecno {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-.tecnologias .sobremi__texto .tecno__cont .tecno .tecno__icon {
-  color: #fff;
-  font-size: 40px;
-}
-.tecnologias .sobremi__texto .tecno__cont .tecno .tecno__text {
-  color: #fff;
+.card .card-body .card-footer {
+  font-weight: bold;
 }
 
 @media (max-width: 1199.98px) {
@@ -579,6 +572,12 @@ h1 span {
 @media (max-width: 480px) {
   .input-flex-container {
     width: 340px;
+  }
+  .card {
+    margin: 20px 20px;
+  }
+  .logo__name {
+    margin-top: 8px;
   }
   .footer .contact {
     display: flex;
